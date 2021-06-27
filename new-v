@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HopeHome</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https:/fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Self-Assessment</a></li>
+                    <li><a href="">Login/SignUp</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Best Online Counselling and Therapy Services</h1>
+            <p>Get Connected with the Best Online Psychologist and Counsellor.<br> Know the online therapy services given by HopeHome.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+      
+
+    </section>
+     <!----services---->
+     <section class="services">
+         <h1>Services we offer</h1>
+         <p>Get connected with the World's Best Online Physiologist and Counsellor.<br> Know the online therapy services provided by HopeHome</p>
+          <div class="col">
+            <div class="services-col">
+                 <img src="img/img1.jpg">
+                 <h3>Depression</h3>
+                 <p><a href="">Read more</a></p>
+                 
+            </div>
+            <div class="services-col">
+                <img src="img/img2.jpg" >
+                <h3>Anxiety</h3>
+                <p><a href="">Read more</a></p>
+           </div>
+           <div class="services-col">
+                <img src="img/img3.jpg">
+                <h3>Relationship Issues</h3>
+                <p><a href="">Read more</a></p>
+           </div>
+           
+        </div>
+            
+                
+     </section>
+    <!----Javascript for toggle menu---------->
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    </script>
+    
+</body>
+</html>
